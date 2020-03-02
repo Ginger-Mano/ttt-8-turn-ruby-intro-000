@@ -1,6 +1,6 @@
 def turn(board)
   puts "Please enter 1-9"
-  return user_input.to.i - 1
+  user_input = gets.chomp
 if index.between?(0,8)
   return true
 else !index.between?(0,8)

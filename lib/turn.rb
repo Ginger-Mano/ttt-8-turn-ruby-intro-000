@@ -3,7 +3,7 @@ def turn(board)
   return user_input.to.i - 1
 if index.between?(0,8)
   return true
-else !index.between?(0,8)
+else
   return false
 end
 

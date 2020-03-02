@@ -7,7 +7,7 @@ def turn(board)
   else
     return false
   display_board(board)
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]  
+  board = ["X", " ", " ", " ", " ", " ", " ", " ", " "]  
   end
 end
 

@@ -3,9 +3,9 @@ def turn(board)
   user_input = gets.chomp
   input_to_index(user_input)
   if valid_move?(board, 0)
-    return true
-  else
-    return false
+    display_board(board)
+  else until valid_move?(board, index)
+    turn(board)
   end
 end
 

@@ -4,9 +4,7 @@ def turn(board)
   input_to_index(user_input)
   if valid_move?(board, 0)
     return true
-  else loop do
-    puts "Please enter 1-9:"
-    break
+  else 
   end
     return false
   end

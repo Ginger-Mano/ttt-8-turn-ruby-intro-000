@@ -6,6 +6,8 @@ def turn(board)
     return true
   else
     return false
+  display_board(board)
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]  
   end
 end
 

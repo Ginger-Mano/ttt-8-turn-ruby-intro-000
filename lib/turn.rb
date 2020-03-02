@@ -4,6 +4,7 @@ def turn(board)
   input_to_index(user_input)
   if valid_move?(board, 0)
     display_board(board)
+    board = ("  | X |  ")
   else !index.between?(0,8)
     turn(board)
   end

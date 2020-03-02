@@ -1,5 +1,5 @@
 def turn(board)
-  print "Please enter 1-9"
+  puts "Please enter 1-9:"
   return user_input.to.i - 1
 end
 

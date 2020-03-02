@@ -3,6 +3,8 @@ def turn(board)
   user_input = gets.chomp
   input_to_index(user_input)
   if valid_move?(board, 0)
+  require 'pry'
+  binding.pry   
     return true
   else 
     return false

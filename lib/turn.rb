@@ -4,7 +4,7 @@ def turn(board)
   input_to_index(user_input)
   if valid_move?(board, 0)
     return true
-  else user_input == nil
+  else 
     return false
   end
 end

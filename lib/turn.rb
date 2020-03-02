@@ -42,6 +42,3 @@ end
 def move(board, index, player="X")
   board[index] = player
 end
-
-require 'pry'
-binding.pry

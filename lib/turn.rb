@@ -6,7 +6,7 @@ def turn(board)
   require 'pry'
   binding.pry   
     return true
-  else 
+  else
     return false
   end
 end
